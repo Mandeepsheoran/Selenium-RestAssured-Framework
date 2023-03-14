@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="18" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-06T17:59:50 GST" name="Suite" finished-at="2023-03-06T18:00:12 GST" duration-ms="21677">
+    <groups>
+    </groups>
+    <test started-at="2023-03-06T17:59:50 GST" name="Test" finished-at="2023-03-06T18:00:12 GST" duration-ms="21677">
+      <class name="org.igt.demo.apitests.DeleteTest">
+        <test-method signature="deleteAndCheckStatus()[pri:0, instance:org.igt.demo.apitests.DeleteTest@1151e434]" started-at="2023-03-06T18:00:09 GST" name="deleteAndCheckStatus" description="User date deletion with invalid status check" finished-at="2023-03-06T18:00:10 GST" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAndCheckStatus -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestResult)[pri:0, instance:org.igt.demo.apitests.DeleteTest@1151e434]" started-at="2023-03-06T18:00:09 GST" name="beforeTest" finished-at="2023-03-06T18:00:09 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DeleteTest.deleteAndCheckStatus()[pri:0, instance:org.igt.demo.apitests.DeleteTest@1151e434] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestResult)[pri:0, instance:org.igt.demo.apitests.DeleteTest@1151e434]" started-at="2023-03-06T18:00:10 GST" name="beforeTest" finished-at="2023-03-06T18:00:10 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DeleteTest.deleteNullStatusCheck()[pri:0, instance:org.igt.demo.apitests.DeleteTest@1151e434] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="deleteNullStatusCheck()[pri:0, instance:org.igt.demo.apitests.DeleteTest@1151e434]" started-at="2023-03-06T18:00:10 GST" name="deleteNullStatusCheck" description="Status check for user delete operation" finished-at="2023-03-06T18:00:10 GST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteNullStatusCheck -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestResult)[pri:0, instance:org.igt.demo.apitests.DeleteTest@1151e434]" started-at="2023-03-06T18:00:10 GST" name="beforeTest" finished-at="2023-03-06T18:00:10 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DeleteTest.deleteUserDetails()[pri:0, instance:org.igt.demo.apitests.DeleteTest@1151e434] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="deleteUserDetails()[pri:0, instance:org.igt.demo.apitests.DeleteTest@1151e434]" started-at="2023-03-06T18:00:10 GST" name="deleteUserDetails" description="Delete User Details" finished-at="2023-03-06T18:00:11 GST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserDetails -->
+      </class> <!-- org.igt.demo.apitests.DeleteTest -->
+      <class name="org.igt.demo.apitests.PostTest">
+        <test-method signature="createNewUser()[pri:0, instance:org.igt.demo.apitests.PostTest@27f981c6]" started-at="2023-03-06T18:00:01 GST" name="createNewUser" description="Create a new login user" finished-at="2023-03-06T18:00:02 GST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUser -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestResult)[pri:0, instance:org.igt.demo.apitests.PostTest@27f981c6]" started-at="2023-03-06T18:00:01 GST" name="beforeTest" finished-at="2023-03-06T18:00:01 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=PostTest.createNewUser()[pri:0, instance:org.igt.demo.apitests.PostTest@27f981c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestResult)[pri:0, instance:org.igt.demo.apitests.PostTest@27f981c6]" started-at="2023-03-06T18:00:02 GST" name="beforeTest" finished-at="2023-03-06T18:00:02 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=PostTest.verifyMissingPasswordValidation()[pri:0, instance:org.igt.demo.apitests.PostTest@27f981c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="verifyMissingPasswordValidation()[pri:0, instance:org.igt.demo.apitests.PostTest@27f981c6]" started-at="2023-03-06T18:00:02 GST" name="verifyMissingPasswordValidation" description="Check missing password validation" finished-at="2023-03-06T18:00:02 GST" duration-ms="564" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Password missing validation is not as per requirement.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Password missing validation is not as per requirement.
+at org.igt.demo.apitests.PostTest.verifyMissingPasswordValidation(PostTest.java:110)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMissingPasswordValidation -->
+        <test-method signature="newUserRegistartionWithInvalidrequest()[pri:0, instance:org.igt.demo.apitests.PostTest@27f981c6]" started-at="2023-03-06T18:00:03 GST" name="newUserRegistartionWithInvalidrequest" description="Register new user with invalid values" finished-at="2023-03-06T18:00:03 GST" depends-on-methods="org.igt.demo.apitests.PostTest.verifyMissingPasswordValidation" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PostTest.newUserRegistartionWithInvalidrequest()[pri:0, instance:org.igt.demo.apitests.PostTest@27f981c6] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PostTest.newUserRegistartionWithInvalidrequest()[pri:0, instance:org.igt.demo.apitests.PostTest@27f981c6] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUserRegistartionWithInvalidrequest -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestResult)[pri:0, instance:org.igt.demo.apitests.PostTest@27f981c6]" started-at="2023-03-06T18:00:03 GST" name="beforeTest" finished-at="2023-03-06T18:00:03 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=PostTest.newUserRegistartion()[pri:0, instance:org.igt.demo.apitests.PostTest@27f981c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="newUserRegistartion()[pri:0, instance:org.igt.demo.apitests.PostTest@27f981c6]" started-at="2023-03-06T18:00:03 GST" name="newUserRegistartion" description="Register new user" finished-at="2023-03-06T18:00:03 GST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUserRegistartion -->
+      </class> <!-- org.igt.demo.apitests.PostTest -->
+      <class name="org.igt.demo.apitests.UpdateTest">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestResult)[pri:0, instance:org.igt.demo.apitests.UpdateTest@1b11171f]" started-at="2023-03-06T18:00:03 GST" name="beforeTest" finished-at="2023-03-06T18:00:03 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=UpdateTest.checkLastNameAfterUpdation()[pri:0, instance:org.igt.demo.apitests.UpdateTest@1b11171f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="checkLastNameAfterUpdation()[pri:0, instance:org.igt.demo.apitests.UpdateTest@1b11171f]" started-at="2023-03-06T18:00:03 GST" name="checkLastNameAfterUpdation" description="Check last name after update" finished-at="2023-03-06T18:00:04 GST" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLastNameAfterUpdation -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestResult)[pri:0, instance:org.igt.demo.apitests.UpdateTest@1b11171f]" started-at="2023-03-06T18:00:04 GST" name="beforeTest" finished-at="2023-03-06T18:00:04 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=UpdateTest.updateRequest()[pri:0, instance:org.igt.demo.apitests.UpdateTest@1b11171f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="updateRequest()[pri:0, instance:org.igt.demo.apitests.UpdateTest@1b11171f]" started-at="2023-03-06T18:00:04 GST" name="updateRequest" description="updateRequest" finished-at="2023-03-06T18:00:05 GST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateRequest -->
+        <test-method signature="updateRequestToValidateUserDetails()[pri:0, instance:org.igt.demo.apitests.UpdateTest@1b11171f]" started-at="2023-03-06T18:00:05 GST" name="updateRequestToValidateUserDetails" description="Validating update response" finished-at="2023-03-06T18:00:05 GST" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateRequestToValidateUserDetails -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestResult)[pri:0, instance:org.igt.demo.apitests.UpdateTest@1b11171f]" started-at="2023-03-06T18:00:05 GST" name="beforeTest" finished-at="2023-03-06T18:00:05 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=UpdateTest.updateRequestToValidateUserDetails()[pri:0, instance:org.igt.demo.apitests.UpdateTest@1b11171f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestResult)[pri:0, instance:org.igt.demo.apitests.UpdateTest@1b11171f]" started-at="2023-03-06T18:00:05 GST" name="beforeTest" finished-at="2023-03-06T18:00:05 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=UpdateTest.validateFirstNameAfterUpdate()[pri:0, instance:org.igt.demo.apitests.UpdateTest@1b11171f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="validateFirstNameAfterUpdate()[pri:0, instance:org.igt.demo.apitests.UpdateTest@1b11171f]" started-at="2023-03-06T18:00:05 GST" name="validateFirstNameAfterUpdate" description="Verify first name after update" finished-at="2023-03-06T18:00:06 GST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFirstNameAfterUpdate -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestResult)[pri:0, instance:org.igt.demo.apitests.UpdateTest@1b11171f]" started-at="2023-03-06T18:00:06 GST" name="beforeTest" finished-at="2023-03-06T18:00:06 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=UpdateTest.verifyResponseBody()[pri:0, instance:org.igt.demo.apitests.UpdateTest@1b11171f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="verifyResponseBody()[pri:0, instance:org.igt.demo.apitests.UpdateTest@1b11171f]" started-at="2023-03-06T18:00:06 GST" name="verifyResponseBody" description="Verify response body" finished-at="2023-03-06T18:00:07 GST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseBody -->
+      </class> <!-- org.igt.demo.apitests.UpdateTest -->
+      <class name="org.igt.demo.apitests.GetTest">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestResult)[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de]" started-at="2023-03-06T17:59:51 GST" name="beforeTest" finished-at="2023-03-06T17:59:51 GST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetTest.checkContentForGetUser()[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="checkContentForGetUser()[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de]" started-at="2023-03-06T17:59:51 GST" name="checkContentForGetUser" description="Check content type of get user details" finished-at="2023-03-06T17:59:57 GST" duration-ms="5541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentForGetUser -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestResult)[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de]" started-at="2023-03-06T17:59:58 GST" name="beforeTest" finished-at="2023-03-06T17:59:58 GST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetTest.checkUserTitle()[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="checkUserTitle()[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de]" started-at="2023-03-06T17:59:58 GST" name="checkUserTitle" description="Check response title" finished-at="2023-03-06T17:59:59 GST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUserTitle -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestResult)[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de]" started-at="2023-03-06T17:59:59 GST" name="beforeTest" finished-at="2023-03-06T17:59:59 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetTest.getPageCount()[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="getPageCount()[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de]" started-at="2023-03-06T17:59:59 GST" name="getPageCount" description="List down total page count" finished-at="2023-03-06T18:00:00 GST" duration-ms="1152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageCount -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestResult)[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de]" started-at="2023-03-06T18:00:00 GST" name="beforeTest" finished-at="2023-03-06T18:00:00 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetTest.getPageCount()[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="getPageCount()[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de]" started-at="2023-03-06T18:00:00 GST" name="getPageCount" description="List down total page count" finished-at="2023-03-06T18:00:00 GST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageCount -->
+        <test-method signature="getPageCount()[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de]" started-at="2023-03-06T18:00:00 GST" name="getPageCount" description="List down total page count" finished-at="2023-03-06T18:00:00 GST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageCount -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestResult)[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de]" started-at="2023-03-06T18:00:00 GST" name="beforeTest" finished-at="2023-03-06T18:00:00 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetTest.getPageCount()[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestResult)[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de]" started-at="2023-03-06T18:00:00 GST" name="beforeTest" finished-at="2023-03-06T18:00:00 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetTest.getPageCount()[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="getPageCount()[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de]" started-at="2023-03-06T18:00:00 GST" name="getPageCount" description="List down total page count" finished-at="2023-03-06T18:00:01 GST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageCount -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestResult)[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de]" started-at="2023-03-06T18:00:01 GST" name="beforeTest" finished-at="2023-03-06T18:00:01 GST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetTest.getPageCount()[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="getPageCount()[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de]" started-at="2023-03-06T18:00:01 GST" name="getPageCount" description="List down total page count" finished-at="2023-03-06T18:00:01 GST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageCount -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestResult)[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de]" started-at="2023-03-06T18:00:01 GST" name="beforeTest" finished-at="2023-03-06T18:00:01 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetTest.getUserDetails()[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="getUserDetails()[pri:0, instance:org.igt.demo.apitests.GetTest@4b8ee4de]" started-at="2023-03-06T18:00:01 GST" name="getUserDetails" description="Get List of Users" finished-at="2023-03-06T18:00:01 GST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserDetails -->
+      </class> <!-- org.igt.demo.apitests.GetTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
