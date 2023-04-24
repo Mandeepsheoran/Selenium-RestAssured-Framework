@@ -1,8 +1,0 @@
-org\igt\demo\apitests\UpdateTest.class
-org\igt\demo\stepDefinitions\carnivalStepDefinitions.class
-org\igt\demo\apitests\GetTest.class
-org\igt\demo\uitests\BaseTest.class
-org\igt\demo\apitests\PostTest.class
-org\igt\demo\apitests\DeleteTest.class
-org\igt\demo\uitests\NotificationUITest.class
-org\igt\demo\runner\APIRunner.class
